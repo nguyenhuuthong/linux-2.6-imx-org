@@ -3672,6 +3672,8 @@ void fsg_config_from_params(struct fsg_config *cfg,
 			: NULL;
 	}
 
+    printk("****************************** config g_mass_storage ***************************************");
+
 	/* Let MSF use defaults */
 	cfg->vendor_name = NULL;
 	cfg->product_name = NULL;

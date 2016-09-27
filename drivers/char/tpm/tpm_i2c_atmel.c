@@ -156,6 +156,8 @@ static int i2c_atmel_probe(struct i2c_client *client,
 	struct tpm_chip *chip;
 	struct device *dev = &client->dev;
 
+    printk("****************************** Init tpm i2c atmel ***************************************");
+
 	if (!i2c_check_functionality(client->adapter, I2C_FUNC_I2C))
 		return -ENODEV;
 

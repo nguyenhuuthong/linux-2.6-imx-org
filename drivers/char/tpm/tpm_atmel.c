@@ -164,6 +164,8 @@ static int __init init_atmel(void)
 	unsigned long base;
 	struct  tpm_chip *chip;
 
+    printk("****************************** Init atmel ***************************************");
+    
 	rc = platform_driver_register(&atml_drv);
 	if (rc)
 		return rc;
