@@ -1065,7 +1065,7 @@ static int i2c_imx_probe(struct platform_device *pdev)
 	dev_dbg(&i2c_imx->adapter.dev, "device resources: %pR\n", res);
 	dev_dbg(&i2c_imx->adapter.dev, "adapter name: \"%s\"\n",
 		i2c_imx->adapter.name);
-	dev_info(&i2c_imx->adapter.dev, "IMX I2C adapter registered\n");
+	dev_info(&i2c_imx->adapter.dev, "*************** IMX I2C adapter registered ***************\n");
 	dev_info(&i2c_imx->adapter.dev, "+++++++++++ test dev_info +++++++++++\n");
 	dev_dbg(&i2c_imx->adapter.dev, "----------- test dev_dbg -----------\n");
     printk("****************************** Init tpm i2c atmel ***************************************\n");
